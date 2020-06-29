@@ -1,0 +1,105 @@
+{% extends 'layout.html' %}
+{% block content %}
+<fieldset>
+    <legend>Resident or Hospital centric?</legend>
+  
+    <input type="radio" value="hospital" id="hospital">
+    <label for="Hospital">Hospital</label>
+  
+    <input type="radio" value="resident" id="resident">
+    <label for="Resident">Resident</label>
+  </fieldset>
+  <fieldset>
+    <legend>Number of hospitals/residents</legend>
+  
+    <input type="text" value="4" id="hospitalCount">
+    <label for="HospitalCount">Hospitals</label>
+    <p> and </p>
+    <input type="text" value="16" id="residentCount">
+    <label for="ResidentCount">Residents</label>
+  </fieldset>
+
+<form>
+    <h1>Hospital</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Preference 1</th>
+            <th>Preference 2</th>
+            <th>Preference 3</th>
+            <th>Preference 4</th>
+        </tr>
+        <tr>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+            <th><input type="text"></th>
+        </tr>
+    </table>
+    <h1>Resident</h1>
+    <table>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Preference 1</th>
+                <th>Preference 2</th>
+                <th>Preference 3</th>
+                <th>Preference 4</th>
+            </tr>
+            <tr>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+                <th><input type="text"></th>
+            </tr>
+    </table>
+    <input type="submit" value="Submit">
+</form>
+
+
+
+{% endblock content %}
