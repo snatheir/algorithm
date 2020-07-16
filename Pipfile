@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+certifi = "==2020.4.5.1"
+click = "==7.1.2"
+dnspython = "==1.16.0"
+ecdsa = "==0.13.3"
+email-validator = "==1.1.1"
+idna = "==2.9"
+itsdangerous = "==1.1.0"
+pycryptodome = "==3.9.7"
+Flask = "==1.1.2"
+Flask-WTF = "==0.14.3"
+Jinja2 = "==2.11.2"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==1.0.1"
+WTForms = "==2.2.1"
+
+[requires]
+python_version = "3.8"
