@@ -1,0 +1,33 @@
+{
+    "_id":{
+            "$oid":"5f106e8d3193a78758495642"
+        },
+    "title":"Stable Marriage/Matching (SMP)",
+    "author":"dismail",
+    "description":"Finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element.",
+    "sample_input":{
+        "men":{
+            "man1":["woman1","woman2","woman3","woman4"],
+            "man2":["woman4","woman3","woman2","woman1"],
+            "man3":["woman3","woman2","woman1","woman4"],
+            "man4":["woman3","woman2","woman4","woman1"]
+        },
+        "women":{
+            "woman1":["man1","man2","man3","man4"],
+            "woman2":["man4","man3","man2","man1"],
+            "woman3":["man3","man2","man1","man4"],
+            "woman4":["man3","man2","man4","man1"]
+        },
+        "men_centric":false
+    },
+    "sample_output":{
+        "man1":"woman1",
+        "man2":"woman2",
+        "man3":"woman3",
+        "man4":"woman4"
+    },
+    "picture":{
+        "$binary":"",
+        "$type":"0"
+    }
+}
