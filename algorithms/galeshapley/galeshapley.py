@@ -4,11 +4,11 @@ import json
 def main(wrappedInput):
     stringInput = wrappedInput.read()
     jsonInput = json.loads(stringInput)
-    print(jsonInput['author'])
     menSuitors = jsonInput['sample_input']['men']
     womenSuitors = jsonInput['sample_input']['women']
-    matching = galeshapley(menSuitors, womenSuitors)
-    print(matching)
+    matchingDict = galeshapley(menSuitors, womenSuitors)
+    matchingJson = json.dumps(matchingDict, indent=2)
+    return matchingJson
 
 if __name__ == "__main__":
     main(jsonInput)
