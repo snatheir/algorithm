@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-certifi = "==2020.4.5.1"
+certifi = "==2022.12.7"
 click = "==7.1.2"
 dnspython = "==1.16.0"
 ecdsa = "==0.13.3"
